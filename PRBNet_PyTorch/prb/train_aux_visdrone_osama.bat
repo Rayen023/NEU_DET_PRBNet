@@ -1,0 +1,3 @@
+#below filled laptop gpu memory after 5 iterations
+#python train_aux.py --workers 1 --device 0 --batch-size 1 --data data/VisDrone.yaml --img 1280 1280 --cfg cfg/training/PRB_Series/PRB-FPN6-2PY.yaml --weights '' --name visdrone-yolov7-w6-PRB-FPN6-2PY --hyp data/hyp.scratch.p6.yaml
+python train_aux.py --workers 1 --device 0 --batch-size 1 --data data/VisDrone.yaml --img 920 920 --cfg cfg/training/PRB_Series/PRB-FPN6-2PY.yaml --weights '' --name visdrone-yolov7-w6-PRB-FPN6-2PY-920x920 --hyp data/hyp.scratch.p6.yaml
